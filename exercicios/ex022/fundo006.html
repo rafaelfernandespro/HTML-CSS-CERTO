@@ -11,14 +11,26 @@
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /*
+            
+            shorthand
+
+            color > image > position > repeat > [site] (é separado) > attachment
+            
+            
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover; */
         }
 
         main{
 
             background-color: white;
-            width: 500px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
