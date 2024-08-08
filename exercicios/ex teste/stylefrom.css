@@ -38,7 +38,7 @@
 body{
 
     font-family: var(--fonte-padrao);
-
+    background-color: var(--cor9);
 }
 
 header > h1{
@@ -78,6 +78,7 @@ main > img{
     width: 100%;
     display: block;
     margin: auto;
+    
 
 }
 
